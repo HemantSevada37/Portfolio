@@ -15,8 +15,8 @@ body {
     align-items: center;
     border-bottom: gray;
     color: #63fdd9;
-    /* position: fixed;
-    top: 0; */
+    position: sticky;
+    top: 0;
     width: 100%;
     padding: 6px 20px;
 }
@@ -42,7 +42,7 @@ body {
 /* intro page styles............................................. */
 #intro{
     /* border: 2px solid white; */
-    padding: 20vh 20vw 35vh 40vh;
+    padding: 20vh 20vw 35vh 20vw;
 }
 #intro p{
     /* border: 1px solid white; */
@@ -69,6 +69,10 @@ body {
 }
 
 /* about me section styles....................................... */
+#about-up, #middle-up {
+    border: 1px solid #0a192f;
+    margin-bottom: 10vh;
+}
 #about {
     margin-top: 10vh;
 }
@@ -79,14 +83,18 @@ body {
 }
 #about >div{
     display: flex;
-    justify-content: space-around;
-    margin: 15vh 20vw 20vh 40vh;
+    justify-content: center;
+    /* margin: 15vh 20vw 20vh 40vh; */
     gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 #about > div > p{
     color: #808ba8;
     /* border: 1px solid white; */
     margin: 0px;
+    width: 40vw;
+    min-width: 300px;
 }
 #about > div > img {
     border-radius: 20px;
@@ -116,10 +124,12 @@ hr {
 /* project section styles...................................... */
 .project {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: center;
     /* align-items: center; */
     gap: 5vw;
-    margin: 20vh 20vw 25vh 40vh;
+    /* margin: 20vh 20vw 25vh 40vh; */
+    margin-top: 20vh;
+    margin-bottom: 30vh;
 
 }
 .project h2 {
@@ -133,7 +143,10 @@ hr {
     width: 30vw;
     height: auto;
     border-radius: 10%;
-    min-height: 350px;
+}
+.project > div {
+    width: 30vw;
+    min-width: 300px;
 }
 .project a {
     border: 1px solid #63fdd9;
