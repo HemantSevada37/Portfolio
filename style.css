@@ -118,6 +118,8 @@ body {
     margin: 0px;
     width: 40vw;
     min-width: 300px;
+    line-height: 1.5;
+    text-align: justify;
 }
 #about > div > img {
     border-radius: 20px;
@@ -207,4 +209,7 @@ footer > p:first-child{
 }
 footer span:hover {
     color: #63fdd9;
+}
+footer i {
+    color: white;
 }
