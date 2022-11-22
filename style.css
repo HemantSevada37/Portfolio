@@ -213,3 +213,19 @@ footer span:hover {
 footer i {
     color: white;
 }
+
+
+footer > ul{
+    list-style-type: none;
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: center;
+}
+footer > ul > li {
+    padding: 5px 20px;
+    font-size: 30px;
+}
+
+ul i:hover {
+    color: #63fdd9;
+}
